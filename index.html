@@ -38,7 +38,7 @@
                     <h3>Fun stuff</h3>
                     <details>
                         <summary>Picture of a dog to brighten the monotony of everyday life</summary>
-                        <img src="media/dog.jpg" width=50% alt="Dog with another dog">
+                        <img src="media/dog.jpg" width="500" alt="Dog with another dog">
                     </details>
             </section>
 
@@ -54,7 +54,7 @@
                 <h3>Fun stuff</h3>
                 <details>
                     <summary>Clip of weird noises from Saturn</summary>
-                    <audio controls src="media/The Eerie Sounds Of Saturn.mp3" type="audio/wav"></audio>
+                    <audio controls src="media/TheEerieSoundsOfSaturn.mp3" type="audio/wav"></audio>
                 </details>
             </section>
 
@@ -70,7 +70,7 @@
                 <h3>Fun stuff</h3>
                 <details>
                     <summary>Video that never fails to brighten my day</summary>
-                    <video controls height=300 src = "media/Turkey Slurpee.mp4" type="video/mp4"></video>
+                    <video controls height=300 src = "media/TurkeySlurpee.mp4"></video>
                 </details>
             </section>
 
@@ -85,23 +85,23 @@
             </section>
 
             <hr> 
-            
+
             <h2> Create entry</h2>
             <form> 
                 <fieldset> 
                     <div>  
                         <label for="date"> The date of your entry:</label>
-                        <input type="date" name="date" min="2021-04-10" max="2022-01-01"> 
+                        <input type="date" id="date" min="2021-04-10" max="2022-01-01"> 
                     </div><br> 
 
                     <div> 
                         <label for="summary"> Enter a summary of what you did that day</label> <br>
-                        <input type="text" name="summary"> <br>
+                        <input type="text" id="summary"> <br>
                     </div><br> 
 
                     <div> 
                         <label for="paragraph"> Write a paragraph expressing how you felt about your day </label> <br>
-                        <textarea name="pargraph" rows="5" cols ="100"></textarea>
+                        <textarea id="paragraph" rows="5" cols ="100"></textarea>
                     </div>
 
                 </fieldset><br>
@@ -110,17 +110,17 @@
                     <legend>Choose what extra elements you want</legend>
                     <div>
                         <label for="EventList">Event List</label>
-                        <input type="checkbox" name="EventList"> 
+                        <input type="checkbox" id="EventList"> 
                     </div>
 
                     <div>
                         <label for="ToDoList">To-Do List </label>
-                        <input type="checkbox" name="ToDoList"> 
+                        <input type="checkbox" id="ToDoList"> 
                     </div>
 
                     <div>
                         <label for="Highlights">HighLights</label>
-                        <input type="checkbox" name="Highlights"> 
+                        <input type="checkbox" id="Highlights"> 
                     </div>
                 </fieldset><br>
 
